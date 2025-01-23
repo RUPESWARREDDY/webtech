@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-shadow: border-box;
+}
+.main{
+    background: linear-gradient(to top,purple,blue,purple);
+}
+.start{
+    height: 100vh; 
+}
+ul li{
+    position: relative;
+    border:0px solid black 7px;
+          background-color:white;
+         padding-left: 10px;
+         color: aqua;
+           height:45px;
+           width:320px;
+            list-style-type:none;
+              border-radius:7px;
+              font-size:20px;
+             margin-top:5px;
+}
+ul li span{
+    position: absolute;
+    left:290px;
+    border: 1px solid transparent;
+    border-radius: 100%;
+    height: 45px;
+    width:45px;
+    text-align: center;
+    color: white;
+    padding-top:5px;
+    background-color: lightseagreen;
+    
+
+}
+span:hover{
+    background-color: blue;
+  
+}
+ul li.checked{
+    background-color: green;
+}

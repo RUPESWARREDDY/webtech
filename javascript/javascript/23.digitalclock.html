@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .clock-div{
+            text-align: center;
+            font-size: 34px;
+            color:aqua;
+            background-color: blue;
+          
+        }
+    </style>
+</head>
+<body>
+    <h1>digital clock</h1>
+    <div class="clock-div"></div>
+    <script>
+        const clock_div=document.querySelector(".clock-div")
+        setInterval(()=>{
+            let time=new Date().toLocaleTimeString()
+            clock_div.innerHTML=time
+        })
+    </script>
+</body>
+</html>

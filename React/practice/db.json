@@ -1,0 +1,87 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "data": [
+    {
+      "userid": "rewt6yi",
+      "title": "wreu",
+      "body": "rewtyui",
+      "id": 1
+    },
+    {
+      "userid": "rewt6yi",
+      "title": "wreu",
+      "body": "rewtyui",
+      "id": 2
+    },
+    {
+      "userid": "rewt6yi",
+      "title": "wreu",
+      "body": "rewtyui",
+      "id": 3
+    },
+    {
+      "userid": "rewt6yi",
+      "title": "wreu",
+      "body": "rewtyui",
+      "id": 4
+    },
+    {
+      "userid": "rewt6yi",
+      "title": "wreu",
+      "body": "rewtyui",
+      "id": 5
+    },
+    {
+      "userid": "rewt6yi",
+      "title": "wreu",
+      "body": "rewtyui",
+      "id": 6
+    },
+    {
+      "userid": "rewt6yi",
+      "title": "wreu",
+      "body": "rewtyui",
+      "id": 7
+    },
+    {
+      "userid": "rewt6yi",
+      "title": "wreu",
+      "body": "rewtyui",
+      "id": 8
+    },
+    {
+      "userid": "rewt6yi",
+      "title": "wreu",
+      "body": "rewtyui",
+      "id": 9
+    },
+    {
+      "userid": "rewt6yi",
+      "title": "wreu",
+      "body": "rewtyui",
+      "id": 10
+    },
+    {
+      "userid": "rewt6yi",
+      "title": "wreu",
+      "body": "rewtyui",
+      "id": 11
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

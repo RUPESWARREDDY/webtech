@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    width:200px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box img{
+    width:200px;
+    height: 200px;
+}

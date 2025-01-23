@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="icon" href="./icon.jpg">
+    <style>
+        body{
+            width:95%;
+            background-color: burlywood;
+        }
+        h1{
+          color: orangered;
+        
+        }
+        span{
+            color: aliceblue;
+        }
+      
+        #b1{
+            background-color: orange;
+            height: 300px;
+            width: 1000px;
+            border-radius: 10px;
+            margin-left: 80px;
+        }
+        p,li{
+            color: olive;
+        }
+    </style>
+</head>
+<body background-color="blue">
+<center>
+    <h1><ABBr title="HYPER TEXT MARKUP LANGUAGE">HTML</ABBr> <span>PROJECTS</span></h1>
+</center>
+    
+    <div id="b1">
+        <h1  style="text-align:center;color:aqua"><dfn>HTML</dfn>   Tags Preparation</h1>
+        <p style="text-align:center">HTML is a markup language for the web that defines the structure of web pages.<br> Learn the basics of HTML tags, elements, attributes, and semantic HTML with examples and infographics.</p>
+        <ul type="square">
+            <li><cite>HTML</cite> is the standard markup language for creating Web pages</li>
+            <li>HTML stands for Hyper Text Markup Language</li>
+            <li>HTML describes the structure of a Web page</li>
+            <li>  HTML <q> elements </q> label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+            <li>HTML elements tell the browser how to display the content</li>
+          
+        </ul>
+    </div><br>
+    <caption style="text-align:center"><b>Registration</caption>
+        <form action="" method="post"></form>
+    <fieldset>
+        <legend style="text-align:center">Signup</legend>
+  <label for="sr">Search</label><input type="search" id="sr" placeholder="search here"><br>
+    <label for="fn">FirstName:</label>
+    <input type="text" name="firstname" id="fn"><br>
+    <label for="ln">lastName:</label>
+    <input type="text" name="lastname" id="ln"><br>
+    <label for="un">email:</label>
+    <input type="email" name="username" id="un" placeholder="enter email here"><br>
+    <label for="ps">Password:</label>
+    <input type="text" name="password" id="ps" placeholder="enter password"><br>
+    <label for="cps">confirmpassword:</label>
+    <input type="text" name="firstname" id="fn" placeholder="Confirm password"><br>
+    <label for="s">gender:</label>
+    <input type="radio" name="s" id="m"><label for="m">male</label>
+    <input type="radio" name="s" id="f"><label for="f">female</label>
+    <input type="radio" name="s" id="o"><label for="o">Others</label><br>
+    <label for="lan">Choose Language:</label>
+    <select name="" id="lan">
+        <option value="t">telugu</option>
+        <option value="e">English</option>
+        <option value="h">hindhi</option>
+        <option value="k" disabled>kannada</option>
+    </select><br>
+    <label for="shift">Choose a shift:</label>
+<select  name="shift" id="shift">
+  <optgroup label="Morning timings">
+    <option value="8 to 12">8 to 12</option>
+    <option value="6 to 10">6 to 10</option>
+  </optgroup>
+  <optgroup label="afternoon timing">
+    <option value="4 to 10">4to10</option>
+    <option value="1 to 6">1to6</option>
+  </optgroup>
+</select>
+    <br>
+    <label for="dep">Select Department</label>
+    <input list="department">
+    <datalist id="department">
+        <option value="digital engineering"></option>
+        <option value="it desk"></option>
+        <option value="microsoft"></option>
+        <option value="salesforce"></option>
+    </datalist>
+<details>
+    <summary>ABOUT YOU:</summary>
+    <P>HI, WELCOME TO HTML</P>
+</details>
+<textarea name="" id="" cols="90" rows="10" placeholder="comment section"></textarea>
+    </fieldset>
+</form>
+
+<table border="1" cell-spacing="2px" cell-padding="2px" align="center" style="border-collapse: collapse;">
+    <colgroup>
+    <col span="2" style="background-color: red;">
+    <col span="2" style="background-color: brown;">
+    </colgroup>
+    <thead>
+        <tr>
+        <th>S.no</th>
+        <th>name</th>
+        <th>mobile number</th>
+        <th>addresses</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>eswar</td>
+            <td>8106491360</td>
+            <td><address>2/87 inagaluru v
+                <a href="">more... </address></a>
+            </td>
+        </tr>
+        <tr>
+        <td>2</td>
+        <td><b>rupesh</b></td>
+        <td><pre>970
+            3077215
+        </pre></td>
+        <td>2/3 <sup>56</sup> kadapa</td></tr>
+        <tr>
+            <td colspan="2"><figure><img src="D:\WEB-TECH\images\travel.jpg" alt="error" height="20px"><figcaption>picture</figcaption></figure></td>
+            <td colspan="2"> <audio src="" controls></audio></td>
+        </tr>
+        <tr>
+            <td rowspan="3"><bdo dir="rtl"><dl>
+                <dt>reverse</dt>
+                <dd>456</dd>
+            </dl></bdo></td>
+            <td><big>rrr</big></td>
+            <td><p>hello</p> <blockquote>welcome to html</blockquote> </td>
+            <td><button>click here</button></td>
+        </tr>
+        <tr>
+            <td><del>ludo</del></td>
+            <td><em>mouritech</em></td>
+            <td><embed src="D:\WEB-TECH\images\icon.jpg" type="image/jpg" height="50px"></td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+        <td><marquee behavior="" direction="right">digital engineering</marquee></td>
+        <td><hr><ins>HTML</ins> <hr></td>
+        <td> <mark>join us!.</mark> </td>
+    <td><meter value="23" min="0" max="100"></meter>
+    <progress value="47" min="0" max="100"></progress> </td></tr>
+    </tfoot>
+</table>
+<canvas style="border: 1px solid red;" height="100px" width="100px"><img src="./tr1.jpg" alt="error"></canvas>
+</body>
+</html>

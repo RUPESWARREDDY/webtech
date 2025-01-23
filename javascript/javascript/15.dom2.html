@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./15.dom2.css">
+</head>
+<body id="col">
+    <button onclick="box1()" ondblclick="doubleclick()">clickhere1</button>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box">
+            <img src="./images/channels4_profile(11).jpg" alt="">
+        </div>
+    </div>
+
+    <h1>forms</h1>
+  <form action="" onsubmit="printdata(event)">
+    <input type="text" name="fnm" placeholder="enter first name">
+    <input type="text" name="lnm" placeholder="enter last name">
+    <input type="submit">
+  </form>
+  <h2 id="res"></h2>
+   <h1>sumnumbers</h1>
+   <button onclick="add()">add</button>
+   <h1 id="sum"></h1>
+   <h1>backgroundcolors</h1>
+   <button onclick="colors()">color</button>
+
+   <h1>display colors in tables</h1>
+   <button class="tab" onclick="tcol()">click here</button>
+   <table border="5" height="200px" width="200px">
+    <tr>
+    <th>YELLOW</th>
+    <th>BLUE</th>
+</tr>
+    <tr><th>RED</th>
+    <th>GREEN</th></tr>
+    <tr><th>BLACK</th>
+    <th>PINKK</th></tr>
+   </table>
+   <br><br><br>
+   <img src="./images/channels4_profile(11).jpg" alt="" height="100" onclick="changeimg()">
+
+   <br><br>
+  <button onclick="btnValue()">Day Mode</button>
+    <script src="./15.dom2.js"></script>
+</body>
+</html>

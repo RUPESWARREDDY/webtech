@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>demo on events</h1>
+    <button onclick="console.log('hai')">click here</button>
+    <button ondblclick="console.log('byee')">double click</button>
+    <hr>
+    <h1>clicking events</h1>
+    <button onclick="demo()">click here</button>
+    <button ondblclick="doubleclick()">click here double</button><br>
+    <h1>display name</h1>
+    <button onclick="something()">click something</button>
+    <h1>addition</h1>
+    <button onclick="add()">add</button>
+    <h1>even numbers</h1>
+    <button onclick="res()">even</button>
+    <!-- keyboard events -->
+    <h1>keyboard events</h1>
+    <h4>onkeydown</h4>
+    <input type="text" placeholder="onkeydown" onkeydown="key1()">
+    <h4>onkeypress</h4>
+    <input type="text" placeholder="onkeypress" onkeypress="key2()">
+    <h4>onkeyup</h4>
+    <input type="text" placeholder="onkeyup" onkeyup="key3()">
+    <!-- mouse events -->
+    <div>
+        <img src="../eswar/images/facebook.png" onmouseover="mouseevent1()">
+    </div>
+    <script src="./11.events.js"></script>
+</body>
+</html>
